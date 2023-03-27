@@ -8,7 +8,13 @@ export default function Intro({ projects }: { projects: string }) {
   return (
     <div className={styles.container}>
       <div className={styles.subcontainer}>
-        <Grid container spacing={2} justifyContent="center" alignItems="center">
+        <Grid
+          container
+          spacing={2}
+          direction={{ xs: "column-reverse", md: "row" }}
+          justifyContent="center"
+          alignItems="center"
+        >
           <Grid item xs={12} md={6}>
             <div className={styles.imageContainer}>
               <Image
