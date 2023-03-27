@@ -1,5 +1,6 @@
 .container {
   background: white;
+  padding-bottom: 5%;
 }
 .subcontainer {
   margin-left: 10%;
@@ -19,6 +20,7 @@
   font-weight: 800;
   font-size: 125px;
   line-height: 117.5%;
+  padding-bottom: 10px;
 }
 @media (max-width: 1175px) {
   .hello {
@@ -45,3 +47,26 @@
   position: relative !important;
   height: unset !important;
 }
+.FSD {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 13.5039px 45.013px;
+    gap: 7.5px;
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    border: 1px solid #2d2c2c;
+    border-radius: 75.0217px;
+  }
+  .PM {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 117.5%;
+    color: #2d2c2c;
+    padding: 2vh;
+  }

@@ -33,9 +33,9 @@ export default function Intro({ projects }: { projects: string }) {
                 {" "}
                 HELLO <br></br>I'M LUKE{" "}
               </h1>
-              <div className="FSD"> Full Stack Developer </div>
-              <div className="PM"> Technical Project Manager </div>
-              <div className="FSD"> Adventurer </div>
+              <div className={styles.FSD}> Full Stack Developer </div>
+              <div className={styles.PM}> Technical Project Manager </div>
+              <div className={styles.FSD}> Adventurer </div>
             </Grid>
           </Grid>
         </Grid>
