@@ -1,0 +1,60 @@
+.footer {
+display: flex;
+flex-direction: column;
+position: relative;
+
+
+}
+.footer-break {
+   
+width: 90vw;
+height: 1px;
+margin-left: 5vw;
+
+
+/* Black */
+
+background: #000000;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.footer-container {
+margin-top: 2vh;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.footer-text {
+margin-left: 5vw;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+
+/* Black */
+
+color: #000000;
+}
+.footer-icon {
+    margin-right: 5vw;
+}
+.footer-icon:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+
+.footer-icon img {
+    height: 5vh;
+}
+
+}
